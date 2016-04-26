@@ -23,5 +23,14 @@
 		<property name="DOB" type="date">
 			<column name="DOB" length="7" not-null="true" />
 		</property>
+		
+		<property name="street" type="string">
+			<column name="street" length="40" />
+		</property>
+		
+		<property name="city" type="string">
+			<column name="city" length="40" />
+		</property>
+		
 	</class>
 </hibernate-mapping>
